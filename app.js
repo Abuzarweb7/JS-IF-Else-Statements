@@ -110,3 +110,60 @@
 // else{
 //     console.log("Wrong password");
 // }
+//Q14
+    // var time = prompt("Enter your time");
+    // if( time < 12){
+    //     alert("Good morning");
+    // }
+    // else{
+    //     alert("Good afternoon!");
+    // }
+    // Q15
+    // var divisibleNum =prompt("Enter num");
+    // if (divisibleNum%5==0) {
+    //     console.log("Divisible by 5");
+    // }
+    // else{
+    //     console.log("Not divisible by 5");
+    // }
+    //Q16
+    // var yes =prompt("want to play a game (yes/no)");
+    // if(yes >="yes"){
+    //     alert("Let,s play")
+    // }
+    // else{
+    //     alert("Maybe next time");
+    // }
+    // Q17
+    // var blue = prompt("Enter your color");
+    // if(blue =="blue"){
+    //     console.log("Cool choice!");
+    // }
+    // else{
+    //     console.log("Interesting color!");
+    // }
+    //Q18
+    // var sunday = prompt("Enter Weekday");
+    // if(sunday==="sunday"){
+    //     alert("Weekend!");
+    // } 
+    // else{
+    //     alert("Weekday");
+    // }
+// Q19
+// var fruits =prompt("Enter fruits");
+// if(fruits ==="banana apple"){
+//     alert("We have that!");
+// }
+// else{
+//     alert("Sorry, out of stock.");
+// }
+//Q20
+// var start =prompt("Enter your type");
+// if(start==="start"){
+//     alert("Game started!");
+// }
+// else{
+//     alert("Waiting for input...");
+
+// }
