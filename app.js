@@ -167,3 +167,59 @@
 //     alert("Waiting for input...");
 
 // }
+
+
+// conditions
+// Q1
+// var marks =parseInt(prompt("Enter your marks"));
+// if(marks>=80){
+//     console.log("Distinction");
+// }
+// else if(marks>=50&&marks<=80){
+// console.log("Pass");
+// }
+// else if(marks<50){
+// console.log("Fail");
+// }
+// else{
+//     console.log("Invalid Marks");
+// }
+// Q2
+
+var age = parseInt(prompt("Enter your age"));
+var membership=parseInt(prompt("Membership yes or no"));
+if(  age>=60&&membership ==="yes"){
+    console.log("Senior Premium Discount");
+}
+
+else if( age < 60){
+console.log("Senior Discount");
+}
+else if(membership ==="yes"){
+    console.log("Premium Discount");
+}
+else{
+    console.log("No Discount");
+}
+
+
+
+//Q3
+// var userLogin =true;
+// var notVarify =false;   
+// if(userLogin>=notVarify){
+//     console.log("Access granted");
+// } 
+// else if(    ){
+
+// }
+
+
+
+
+
+
+
+
+
+// Q4
