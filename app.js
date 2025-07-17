@@ -186,40 +186,76 @@
 // }
 // Q2
 
-var age = parseInt(prompt("Enter your age"));
-var membership=parseInt(prompt("Membership yes or no"));
-if(  age>=60&&membership ==="yes"){
-    console.log("Senior Premium Discount");
-}
-
-else if( age < 60){
-console.log("Senior Discount");
-}
-else if(membership ==="yes"){
-    console.log("Premium Discount");
-}
-else{
-    console.log("No Discount");
-}
+//   var age =parseInt(prompt("Enter your age"));
+//   var userStatus=prompt("Membership status yes/no");
+//   if(age>60 && userStatus === "yes")
+//   {
+//     console.log( "Senior Premium Discount");
+//   }  
 
 
-
-//Q3
-// var userLogin =true;
-// var notVarify =false;   
-// if(userLogin>=notVarify){
-//     console.log("Access granted");
-// } 
-// else if(    ){
-
+// else if(age<60 && userStatus==="no"){
+// console.log("Senior Discount");
+// }
+// else if(userStatus ==="yes"){
+// console.log("Premium Discount");
+// }
+// else{
+//     console.log("No Discount");
 // }
 
 
+//Q3
 
-
-
-
-
+// var login =true;
+// var varifyEmail = true;
+// if(login&&varifyEmail){
+//     console.log("Access granted");
+// }
+// else if(login&&varifyEmail ===false){
+// console.log("Please verify your email");
+// }
+// else{
+//     console.log("Please log in");
+// }
 
 
 // Q4
+// var age =parseInt(prompt("Enter your age"));toLowerCase();
+// if(age>=18 && age<=35){
+//     console.log();
+// }
+
+// Q5
+
+// var subcription =prompt("Plan free/pranium");
+// var loginStatus =prompt("Logi status yes/no");
+
+// if(loginStatus === "no"){
+//     console.log("plzz login");
+// }
+// else if(loginStatus === "yes" && subcription ==="pranium" ){
+// console.log("Welcome Premium User");
+// }
+// else if (loginStatus ==="yes" && subcription ==="free"){
+//     console.log("Welcome Free User");
+// }
+// else{
+//     console.log("Invalid subscription");
+// }
+//Q6
+// var productCondition =parseInt(prompt("Enter your product"));
+// var member =prompt("Enter yes/no"); 
+// var stock =prompt("in stock yes/no")
+// if(productCondition > 1000 && stock === "yes" && member ==="yes"){
+// console.log("Buy now with discount");
+// }
+// else if(stock ==="yes"){
+// console.log("Buy now");
+// }
+// else if(stock === "no"){
+// console.log("Out of stock");
+// }   
+// else{
+//     console.log( "Invalid product");
+// }
