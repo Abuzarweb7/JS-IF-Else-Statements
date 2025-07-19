@@ -369,3 +369,18 @@
 // else{
 //     console.log("Driving without license");
 // }
+    var isPayment =prompt("payment is yes/no")
+    var isShiped =prompt("Enter the shiped status yes /no")
+        if(isPayment === "yes"){
+console.log("Order on the way");
+        }
+        else if(isPayment==="yes"&& isShiped==="no" ){
+            console.log("Preparing your order");
+        }
+        else if(isPayment==="no"){
+            console.log("Awaiting payment");
+            }
+            else{
+                console.log("Payment failed");
+            }
+    
