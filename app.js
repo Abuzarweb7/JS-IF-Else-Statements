@@ -259,3 +259,48 @@
 // else{
 //     console.log( "Invalid product");
 // }
+//Q7 
+// var hoursWorked = parseInt(prompt("Enter your time"));
+// var isWeekand = prompt("Enter yes/no");
+// if(hoursWorked>40&& isWeekand==="no"){
+//     console.log("Overtime");
+// }
+// else if(hoursWorked>0 && isWeekand==="yes"){
+//     console.log("Weekend work");
+// }
+// else if(hoursWorked<=40){
+//     console.log("Regular hours");
+// }
+// else{
+//     console.log("no work");
+// }
+//Q8
+// var age =parseInt(prompt("Ënter your age"));
+// var gender =prompt("Ënter your gender");
+// if(age>13&&age<19 && gender==="male"){
+//     console.log("Teen Male");
+// }
+// else if(age>13&&age<19 && gender ==="female"){
+//     console.log("Teen Female");
+// }
+// else if(age>=20){
+//     console.log("Adult");
+// }
+// else{
+//     console.log("Child");
+// }
+//Q9
+// var temperature =parseInt(prompt("Enter your temperature"));
+// var  humidity =parseInt(prompt("Enter your humidity"));
+// if(temperature>=40 && humidity>=60){
+//     console.log("Heatwave Alert");
+// }
+// else if(temperature>=40 && humidity<60){
+// console.log("Hot and Dry");
+// }
+// else if(temperature<=20){
+// console.log("Cool weather");
+// }
+// else{
+//     console.log("Moderate");
+// }
