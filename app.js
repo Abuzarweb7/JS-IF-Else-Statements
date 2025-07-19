@@ -304,3 +304,68 @@
 // else{
 //     console.log("Moderate");
 // }
+// Q10
+// var score =parseInt(prompt("Enter your score"));
+// if(score>=90 &&score<=100){
+// console.log("Excellent");
+// }
+// else if(score>=70 && score<=89){
+//     console.log("Good");
+// }
+// else if(score>=50 && score<=69){
+// console.log("Average");
+// }
+// else if(score>=30 && score<=49){
+// console.log("Poor");
+// }
+// else if(score<30){
+// console.log("Fail");
+// }
+// else{
+//     console.log("Invalid Score");
+// }
+//Q11
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Q12
+// var userSpeed =parseInt(prompt("Enter your speed"));
+// var userLicense = prompt("Licence yes /no");
+// if(userSpeed>120) {
+//     console.log("License suspended");
+
+// }
+// else if(userSpeed>100  &&  userSpeed <120 ){
+//     console.log("Warning");
+
+// }
+// else if(userSpeed<100 && userLicense==="yes"){
+// console.log("Normal driving");
+// }
+// else{
+//     console.log("Driving without license");
+// }
