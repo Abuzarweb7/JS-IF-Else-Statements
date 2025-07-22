@@ -221,11 +221,21 @@
 
 
 // Q4
-// var age =parseInt(prompt("Enter your age"));toLowerCase();
-// if(age>=18 && age<=35){
-//     console.log();
+// var userAge =parseInt(prompt("Enter your are age"));
+// var country =parseInt(prompt("Enter your country"));
+// var banStatus =prompt("Enter your ban status yes/no");
+// if(banStatus ==="yes"){
+//     console.log("Your ara baned");
 // }
-
+// else if(userAge<18 || userAge<35){
+// console.log("Must be between ages 18–35");
+// }
+// else if(country !== "pakistan" && country !== "india"){
+// console.log("Must be from Pakistan or India");
+// }
+// else{
+//     console.log("Must not be banned");
+// }
 // Q5
 
 // var subcription =prompt("Plan free/pranium");
@@ -326,30 +336,21 @@
 // }
 //Q11
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// var userLogin =prompt("User login yes /no ");
+// var mustEnrolled =prompt("Mustenrolled yes/no");
+// var userBaned =prompt("User must be baned yes/no");
+// if(userLogin ==="yes" && mustEnrolled ==="yes"){
+// console.log("Access granted");
+// }
+// else if(mustEnrolled ==="no"){
+// console.log("Enroll in course first");
+// }
+// else if(userBaned==="yes"){
+// console.log("User is banned");
+// }
+// else{
+//     console.log("Please log in");
+// }
 
 
 // Q12
@@ -386,15 +387,31 @@
 //             }
 //   Q14  
 // var userCharge =parseInt(prompt("Enter your charge"));
-// if(userCharge === 100){
+// var chargingState =prompt("Enter yes/no");
+
+// if(userCharge === 100 && chargingState === "yes"){
 //     console.log("Fully Charged");
 // }
-// else if(userCharge<100){
+// else if(userCharge<100 && chargingState ==="yes"){
 // console.log("Charging...");
 // }
-// else if(userCharge<20){
+// else if(userCharge<=20 && chargingState ==="no"){
 // console.log("Low Battery");
 // }
 // else{
 //     console.log("Battery OK");
 // }
+
+// Q15
+// var userBrowser = prompt("Enter your browser");
+// var userDevice =prompt("Enter your device phone/desktop");
+//     if(userBrowser ==="chrome" && userDevice ==="desktop"){
+//         console.log("Full features enabled");
+//     }
+//     else if(userBrowser==="chrome" && userDevice ==="phone"){
+//         console.log("Limited mobile features");
+//     }
+//     else{
+//         console.log("Please switch to Chrome");
+//     }
+
